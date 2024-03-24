@@ -80,13 +80,26 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 - Read validation-decorators - [https://github.com/typestack/class-validator?tab=readme-ov-file#validation-decorators](https://github.com/typestack/class-validator?tab=readme-ov-file#validation-decorators)
 
-## Important Links
+## Instalations
 
 - For nested dto e.g add to update types - npm i @nestjs/mapped-types -D
 
 - For Validation - npm i class-validator class-transformer
 
+- For Install Prisma - npm i prisma -D then init the prisma using - npx prisma init
+
+## Prisma
+
+- After create the schema For Migration - npx prisma migrate dev --name init
+- After update the schema - npx prisma generate
+- Now run migration agaian for apply the changes - npx prisma migrate dev --name name_change
+
+## Prisma
+
 - For crate module, controller and service - nest g module users, nest g controller users, nest g service users
+
+- For create resource - nest g resource employees
+- then select Rest API - Note: this will create a complete CRUD
 
 ## License
 

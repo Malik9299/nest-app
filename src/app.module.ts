@@ -7,6 +7,8 @@ import { TodosModule } from './todos/todos.module';
 import { Todo } from './todos/todo.entity';
 import path, { join } from 'path';
 import { UsersModule } from './users/users.module';
+import { DatabaseModule } from './database/database.module';
+import { EmployeesModule } from './employees/employees.module';
 @Module({
   imports: [
     ConfigModule.forRoot(),
@@ -27,6 +29,8 @@ import { UsersModule } from './users/users.module';
     }),
     TodosModule,
     UsersModule,
+    DatabaseModule,
+    EmployeesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
