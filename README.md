@@ -68,6 +68,26 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - Website - [https://nestjs.com](https://nestjs.com/)
 - Twitter - [@nestframework](https://twitter.com/nestframework)
 
+## Important Links
+
+- Nest.js Tutorial - [Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours](https://www.youtube.com/watch?v=8_X0nSrzrCw)
+- Dependency injection - [https://angular.dev/guide/di](https://angular.dev/guide/di)
+- Database - [https://docs.nestjs.com/techniques/database](https://docs.nestjs.com/techniques/database)
+- Controllers - [https://docs.nestjs.com/controllers](https://docs.nestjs.com/controllers)
+- SQL (TypeORM) - [https://docs.nestjs.com/recipes/sql-typeorm#repository-pattern](https://docs.nestjs.com/recipes/sql-typeorm#repository-pattern)
+
+- Unary_plus - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus)
+
+- Read validation-decorators - [https://github.com/typestack/class-validator?tab=readme-ov-file#validation-decorators](https://github.com/typestack/class-validator?tab=readme-ov-file#validation-decorators)
+
+## Important Links
+
+- For nested dto e.g add to update types - npm i @nestjs/mapped-types -D
+
+- For Validation - npm i class-validator class-transformer
+
+- For crate module, controller and service - nest g module users, nest g controller users, nest g service users
+
 ## License
 
 Nest is [MIT licensed](LICENSE).

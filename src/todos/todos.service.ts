@@ -28,7 +28,6 @@ export class TodosService {
   }
   async delete(id: number) {
     const todo = await this.todoRepository.findOne({ where: { id: id } });
-    // Object.assign(todo, dto);
     return this.todoRepository.remove(todo);
   }
 }
