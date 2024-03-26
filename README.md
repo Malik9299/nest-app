@@ -71,10 +71,6 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## Important Links
 
 - Nest.js Tutorial - [Nest.js Full Course for Beginners | Complete All-in-One Tutorial | 3 Hours](https://www.youtube.com/watch?v=8_X0nSrzrCw)
-- Dependency injection - [https://angular.dev/guide/di](https://angular.dev/guide/di)
-- Database - [https://docs.nestjs.com/techniques/database](https://docs.nestjs.com/techniques/database)
-- Controllers - [https://docs.nestjs.com/controllers](https://docs.nestjs.com/controllers)
-- SQL (TypeORM) - [https://docs.nestjs.com/recipes/sql-typeorm#repository-pattern](https://docs.nestjs.com/recipes/sql-typeorm#repository-pattern)
 
 - Unary_plus - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus)
 
@@ -94,12 +90,25 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 - After update the schema - npx prisma generate
 - Now run migration agaian for apply the changes - npx prisma migrate dev --name name_change
 
-## Prisma
+## nestjs
 
 - For crate module, controller and service - nest g module users, nest g controller users, nest g service users
 
 - For create resource - nest g resource employees
 - then select Rest API - Note: this will create a complete CRUD
+
+## Tasks
+
+- Dependency injection - [https://angular.dev/guide/di](https://angular.dev/guide/di)
+- Database - [https://docs.nestjs.com/techniques/database](https://docs.nestjs.com/techniques/database)
+- Controllers - [https://docs.nestjs.com/controllers](https://docs.nestjs.com/controllers)
+- SQL (TypeORM) - [https://docs.nestjs.com/recipes/sql-typeorm#repository-pattern](https://docs.nestjs.com/recipes/sql-typeorm#repository-pattern)
+
+- Add a global prefix - in main
+- CORS - in main
+- Rate Limiting - $ npm i --save @nestjs/throttler - in app.module
+- Logging - Logger [https://docs.nestjs.com/techniques/logger](https://docs.nestjs.com/techniques/logger)
+- exception-filters [https://docs.nestjs.com/exception-filters](https://docs.nestjs.com/exception-filters)
 
 ## License
 
